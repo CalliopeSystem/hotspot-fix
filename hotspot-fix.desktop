@@ -1,0 +1,12 @@
+[Desktop Entry]
+Comment=
+Exec=pkexec /usr/bin/hotspot-fix
+GenericName=Bypass carrier hotspot restrictions.
+Icon=network-wireless-hotspot
+Name=Hotspot Fix
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application

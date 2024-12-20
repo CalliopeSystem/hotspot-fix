@@ -1,0 +1,12 @@
+[Desktop Entry]
+Comment=
+Exec=pkexec /usr/bin/hotspot-unfix
+GenericName=Revert changes made by Hotspot Fix (Fix networking issues)
+Icon=network-wireless-hotspot
+Name=Hotspot Unfix
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application

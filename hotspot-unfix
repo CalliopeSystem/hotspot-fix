@@ -1,0 +1,7 @@
+#!/bin/sh
+# Default TTL values
+
+# IPV4
+iptables -t mangle -A POSTROUTING -j TTL --ttl-set 64
+# IPV6
+ip6tables -t mangle -A POSTROUTING -j HL --hl-set 64

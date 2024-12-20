@@ -1,0 +1,7 @@
+#!/bin/sh
+# Mangle to bypass hotspot restrictions.
+
+# IPV4
+iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
+# IPV6
+ip6tables -t mangle -A POSTROUTING -j HL --hl-set 65
